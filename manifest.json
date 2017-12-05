@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Ad Blocker",
+  "description": "This extension allows the user to block ads and suggested groups.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://web.facebook.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
