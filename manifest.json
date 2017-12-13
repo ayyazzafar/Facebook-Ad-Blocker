@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Facebook Ad Blocker",
   "description": "This extension allows the user to block ads and suggested groups.",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {
